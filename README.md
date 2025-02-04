@@ -3,6 +3,7 @@ Create a solution connecting Alexa devices to Yaber smart projectors (K2s model)
 
 ## Project Structure 
 
+```text
 smart-home-automation/
 ├── .gitignore                 # Contains your specified patterns + additions below
 ├── .env.example               # Template for environment variables
@@ -39,3 +40,4 @@ smart-home-automation/
     │   └── test_alexa_skill.py
     └── integration/
         └── test_ha_cloudflare.py
+```
